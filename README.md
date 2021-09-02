@@ -1,2 +1,17 @@
-# csu-distsys-2021
-Distributed systems class at Chelyabinsk State University, 2021–2022
+# Проектирование и разработка распределенных программных систем
+
+Лекции и материалы по курсу распределенных систем в ЧелГУ, группа ПрИ-401.
+
+### Лекции
+
+#### Лекция 1. Введение в распределенные системы
+
+[Презентация](https://docs.google.com/presentation/d/1BGF3yyPQVAkaFE7qoRFtt9xMtSWKBaweCB6Bj3sVlc0/edit?usp=sharing)
+
+Зачем нужны распределенные системы, какие проблемы они решают и какие проблемы в них появляются.
+
+**Ссылки**
+1. Мартин Клеппман. Высоконагруженные приложения. Программирование, масштабирование, поддержка
+2. [Лекции Мартина Клеппмана по распределенным системам в Кембридже](https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html)
+3. [Distributed systems for fun and profit](http://book.mixu.net/distsys/)
+4. [Страх и ненависть в распределённых системах](https://habr.com/ru/post/322876/)
