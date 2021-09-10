@@ -16,7 +16,6 @@
 3. [Distributed systems for fun and profit](http://book.mixu.net/distsys/)
 4. [Страх и ненависть в распределённых системах](https://habr.com/ru/post/322876/)
 
-
 #### Лекция 2. Асинхронное программирование
 
 [Презентация](https://docs.google.com/presentation/d/18CWc4JIaBnL4JozDBHZ0iXwesjRNPq0NVdYqo4fEImg/edit?usp=sharing)
@@ -26,6 +25,9 @@
 2. [Анатомия веб-сервиса](http://highload.guide/blog/inside-webserver.html)
 3. [Метафоры асинхронности в документации FastAPI](https://fastapi.tiangolo.com/async/)
 4. [Асинхронщина в JS](https://habr.com/ru/company/oleg-bunin/blog/417461/)
+
+
+### Практика
 
 #### Практика 1. Контейнеризация и Docker
 
