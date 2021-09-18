@@ -27,6 +27,17 @@
 4. [Асинхронщина в JS](https://habr.com/ru/company/oleg-bunin/blog/417461/)
 
 
+#### Лекция 3. Модели данных
+
+[Презентация](https://docs.google.com/presentation/d/1pWHojbwiXR1LgXTkqCxpArP2BEKYe5BOUvSoiMhOQ7c/edit?usp=sharing)
+
+Реляционные, документо-ориентированные, графовые, key-value и колоночные БД.
+
+**Ссылки**
+1. [NoSQL – коротко о главном](https://habr.com/ru/company/oleg-bunin/blog/319052/)
+2. Мартин Клеппман. Высоконагруженные приложения. Программирование, масштабирование, поддержка. Глава 2
+
+
 ### Практика
 
 #### Практика 1. Контейнеризация и Docker
