@@ -31,7 +31,7 @@
 
 [Презентация](https://docs.google.com/presentation/d/1pWHojbwiXR1LgXTkqCxpArP2BEKYe5BOUvSoiMhOQ7c/edit?usp=sharing)
 
-Реляционные, документо-ориентированные, графовые, key-value и колоночные БД.
+Реляционные, документоориентированные, графовые, key-value и колоночные БД.
 
 **Ссылки**
 1. [NoSQL – коротко о главном](https://habr.com/ru/company/oleg-bunin/blog/319052/)
