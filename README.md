@@ -38,6 +38,15 @@
 2. Мартин Клеппман. Высоконагруженные приложения. Программирование, масштабирование, поддержка. Глава 2
 
 
+#### Лекция 4. Коммуникация приложений
+
+[Презентация](https://docs.google.com/presentation/d/1nSXZ5KifF-_c2tSqD36dhLgV92GRC4ABmbWVXKf4_KI/edit?usp=sharing)
+
+**Ссылки**
+1. Хоп Грегор, Вульф Бобби. Шаблоны интеграции корпоративных приложений
+2. Сэм Ньюмен. Создание микросервисов, глава 4
+
+
 ### Практика
 
 #### Практика 1. Контейнеризация и Docker
@@ -57,3 +66,24 @@
 3. [Документация по Dockerfile](https://docs.docker.com/engine/reference/builder/)
 4. [Порядок команд в Dockerfile](https://medium.com/@esotericmeans/optimizing-your-dockerfile-dc4b7b527756)
 5. [Multi-stage builds для компилируемых языков](https://docs.docker.com/develop/develop-images/multistage-build/)
+
+
+#### Практика 2. Взаимодействие контейнеров
+
+![](diagrams/lab2.png)
+
+[Презентация](https://docs.google.com/presentation/d/1YGD6fijEJ7x7Nb6MfOUtST9V06gzO5M5A6fcJXubFLg/edit?usp=sharing)
+
+**Задание**
+1. Дописать приложение, чтобы оно содержало два эндпоинта
+  * POST /links — сохраняет ссылку в БД и возвращает ее id
+  * GET /links/<id> — отдает ссылку из БД по id
+2. Добавить контейнер с PostgreSQL и настроить его взаимодействие с приложением
+3. Настроить запуск обоих контейнеров через Docker Compose
+
+**Ссылки**
+1. [Postgres по Docker Hub](https://hub.docker.com/_/postgres)
+2. [Сеть в Docker](https://docs.docker.com/network/network-tutorial-standalone/)
+3. [Volumes в Docker](https://docs.docker.com/storage/volumes/)
+4. [Docker Compose](https://docs.docker.com/compose/)
+5. [Документация по docker-compose.yml](https://docs.docker.com/compose/compose-file/)
