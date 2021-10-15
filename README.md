@@ -47,6 +47,16 @@
 2. Сэм Ньюмен. Создание микросервисов, глава 4
 
 
+#### Лекция 5. Очереди сообщений
+
+[Презентация](https://docs.google.com/presentation/d/1qdmRNu3JuSyRZ5ID-f7dKpyVqoQvLyvJuo8pQpC9pkk/edit?usp=sharing)
+
+**Ссылки**
+1. [Принципы и приёмы обработки очередей](https://habr.com/ru/company/oleg-bunin/blog/309332/)
+2. [101 способ приготовления RabbitMQ и немного о pipeline архитектуре](https://habr.com/ru/company/oleg-bunin/blog/310418/)
+3. [Очереди и блокировки. Теория и практика](https://habr.com/ru/company/oleg-bunin/blog/316458/)
+
+
 ### Практика
 
 #### Практика 1. Контейнеризация и Docker
@@ -87,3 +97,20 @@
 3. [Volumes в Docker](https://docs.docker.com/storage/volumes/)
 4. [Docker Compose](https://docs.docker.com/compose/)
 5. [Документация по docker-compose.yml](https://docs.docker.com/compose/compose-file/)
+ 
+ 
+#### Практика 3. Работа с RabbitMQ
+
+![](diagrams/lab3.png)
+
+[Презентация](https://docs.google.com/presentation/d/14dNZt9zdrFxqDKRyD2X_hvxvwwmE8dK-5VLBM-z5Zj4/edit?usp=sharing)
+
+**Задание**
+1. Добавить контейнер с RabbitMQ
+2. В приложении добавить в модель ссылки поле «статус», добавить эндпоинт PUT /links/<id> для обновления статуса ссылки. При добавлении ссылки отправлять ее в очередь сообщений
+3. Добавить консьюмер, который слушает очередь сообщений и получает все новые ссылки, делает запрос к ним и сохраняет HTTP-статус ответа через новый эндпоинт приложения. 
+
+**Ссылки**
+1. [RabbitMQ на Docker Hub](https://hub.docker.com/_/rabbitmq)
+2. [Тьюториал по RabbitMQ](https://www.rabbitmq.com/getstarted.html)
+3. [Healthchecks в docker-compose](https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y )
