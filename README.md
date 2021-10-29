@@ -127,3 +127,19 @@
 1. [RabbitMQ на Docker Hub](https://hub.docker.com/_/rabbitmq)
 2. [Тьюториал по RabbitMQ](https://www.rabbitmq.com/getstarted.html)
 3. [Healthchecks в docker-compose](https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y )
+ 
+
+#### Практика 4. Балансировка нагрузки через nginx
+
+![](diagrams/lab4.png)
+
+[Презентация](https://docs.google.com/presentation/d/1y0E1cD-5RfaBP4vZ6qHscuUCuxb6C4uf6RHPYvUCOdc/edit?usp=sharing)
+
+**Задание**
+1. Поднять два отдельных контейнера с API. Каждый из них должен добавлять в ответ собственную метку, чтобы было понятно, какой из контейнеров ответил (например, через HTTP-хедер)
+2. Поднять контейнер с nginx, который проксирует запросы на API-контейнеры и балансирует нагрузку между ними
+
+**Ссылки**
+1. [nginx на Docker Hub](https://hub.docker.com/_/nginx)
+2. [Документация по nginx](http://nginx.org/ru/docs/beginners_guide.html)
+3. [Балансировка нагрузки в nginx](http://nginx.org/en/docs/http/load_balancing.html)
