@@ -79,6 +79,15 @@
 3. [Использование memcached и Redis в высоконагруженных проектах](http://highload.guide/blog/using-memcached-and-redis.html)
 
 
+#### Лекция 8. Масштабирование БД
+
+[Презентация](https://docs.google.com/presentation/d/1GmBMnAynq22KnbX4UJ5ZrCcVIy3wVNp9Rq_3DIzmWRY/edit?usp=sharing)
+
+**Ссылки**
+1. Мартин Клеппман. Высоконагруженные приложения. Программирование, масштабирование, поддержка. Главы 5, 6
+2. [Шардинг: паттерны и антипаттерны](https://habr.com/ru/company/oleg-bunin/blog/313366/)
+
+
 ### Практика
 
 #### Практика 1. Контейнеризация и Docker
