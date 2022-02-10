@@ -2,6 +2,8 @@
 
 Лекции и материалы по курсу распределенных систем в ЧелГУ, группа ПрИ-401.
 
+## Первый семестр
+
 ### Лекции
 
 #### Лекция 1. Введение в распределенные системы
@@ -200,3 +202,69 @@
 17. Репликация данных в БД: для чего она нужна и как реализуется
 18. Репликация данных в БД: проблемы репликации и как они решаются
 18. Шардинг данных в БД
+
+ 
+## Второй семестр
+
+### Лекции
+
+#### Лекция 9. Микросервисы
+
+[Презентация](https://docs.google.com/presentation/d/1e2Rpkt8Hj4tHq1DkE9TLONmiUocZeRFv9vzWp4MTcME/edit?usp=sharing)
+
+**Ссылки**
+1. Сэм Ньюмен. Создание микросервисов
+2. Александр Бындю. [От микросервисного монолита к оркестратору](https://blog.byndyu.ru/2020/04/blog-post_14.html)
+3. Паттерны с [microservices.io](https://microservices.io/): [монолитная архитектура](https://microservices.io/patterns/monolithic.html), [микросервисная архитектура](https://microservices.io/patterns/microservices.html), [API gateway](https://microservices.io/patterns/apigateway.html), [Client-side service discovery](https://microservices.io/patterns/client-side-discovery.html), [Server-side service discovery](https://microservices.io/patterns/server-side-discovery.html)
+
+
+#### Лекция 10. DDD
+
+[Презентация](https://docs.google.com/presentation/d/1yCG-hT9HZqzWAtol5zuynUdAZ2gM5qMUgPYyxitDshM/edit?usp=sharing)
+
+**Ссылки**
+
+1. Эрик Эванс. Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем
+2. [Domain Driven Design Quickly — краткое содержание книги Эрика Эванса](http://www.infoq.com/minibooks/domain-driven-design-quickly/)
+3. [Harry Percival, Bob Gregory. Architecture Patterns with Python](https://www.cosmicpython.com/)
+4. [Лекция по DDD на ulearn.me](https://ulearn.me/course/cs2/Chto_takoe_DDD_41922668-4105-4ea0-a1c1-ef138e5441bb)
+
+ 
+#### Лекция 11. Паттерны работы с БД
+
+[Презентация](https://docs.google.com/presentation/d/1kBwCXDR3_iOaV6duJhOym38rE2hI3FeJKiTIyB6nxRs/edit?usp=sharing)
+
+**Ссылки**
+1. [Джимми Богард про агрегаты](https://lostechies.com/jimmybogard/2010/02/24/strengthening-your-domain-aggregate-construction/)
+2. [Мартин Фаулер про CQS](https://martinfowler.com/bliki/CommandQuerySeparation.html)
+3. [Грег Янг. CQRS Documents](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
+4. [Уди Дахан. Clarified CQRS](https://udidahan.com/2009/12/09/clarified-cqrs/)  
+5. [Александр Бындю. CQRS на практике](https://blog.byndyu.ru/2014/07/command-and-query-responsibility.html)
+
+ 
+#### Лекция 12. Аутентификация и авторизация
+
+[Презентация](https://docs.google.com/presentation/d/15Wy7MTUTurxw9EVEQb3OJqVz0VjVOM50a0J-jsTzQ4o/edit?usp=sharing)
+
+**Ссылки**
+1. Сэм Ньюмен. Создание микросервисов
+2. [JSON Web Tokens](https://jwt.io/)
+
+ 
+#### Лекция 13. Паттерны стабильности
+
+[Презентация](https://docs.google.com/presentation/d/1RIAyr2HAUOFhoExU58qyy06IpgGF4BnqRs6hrbIU2EA/edit?usp=sharing)
+
+**Ссылки**
+1. Майкл Нейгард. Release it! Проектирование и дизайн ПО для тех, кому не всё равно
+2. [SRE Book](https://sre.google/sre-book/table-of-contents/)
+3. [Graceful degradation. Доклад Яндекс.Такси](https://habr.com/ru/company/yandex/blog/438606/)
+
+ 
+#### Лекция 14. Мониторинг
+
+[Презентация](https://docs.google.com/presentation/d/1oGn4mFHo9kvie3zB59KA3BWB3ydOBRztGdtIRfSl2nI/edit?usp=sharing)
+
+**Ссылки**
+1. Сэм Ньюмен. Создание микросервисов
+2. [SRE Book](https://sre.google/sre-book/table-of-contents/)
