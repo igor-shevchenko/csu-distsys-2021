@@ -268,3 +268,44 @@
 **Ссылки**
 1. Сэм Ньюмен. Создание микросервисов
 2. [SRE Book](https://sre.google/sre-book/table-of-contents/)
+ 
+
+### Практика
+
+Разработка интернет-магазина на микросервисах.
+
+![](diagrams/mcs-lab-all.png)
+
+#### Практика 6. Админка для микросервисного интернет-магазина
+
+![](diagrams/mcs-lab1.png)
+
+[Презентация](https://docs.google.com/presentation/d/1HiKZo5cClB9Z1AtRtN5ek_LOHbZY_vGlTasvwnRoSQs/edit?usp=sharing)
+
+
+#### Практика 7. Каталог
+
+![](diagrams/mcs-lab2.png)
+
+[Презентация](https://docs.google.com/presentation/d/1k8qrIqVg5TV2cWZgmjzans92-XN23gKFToKFWnU46pM/edit?usp=sharing)
+
+
+#### Практика 8. Аутентификация и авторизация
+
+![](diagrams/mcs-lab3.png)
+
+[Презентация](https://docs.google.com/presentation/d/1rlOuTTnmTHb0eBC2JIJjqCjpoxxamhPpQ5brTrMTQRU/edit?usp=sharing)
+
+
+#### Практика 9. Корзина
+
+![](diagrams/mcs-lab4.png)
+
+[Презентация](https://docs.google.com/presentation/d/1bFLvBWRDm_CEO_c3k4z7Mk35kiR9N7bLYRCT2g8sBpA/edit?usp=sharing)
+
+
+#### Практика 10. Заказы
+
+![](diagrams/mcs-lab-all.png)
+
+[Презентация](https://docs.google.com/presentation/d/1yMKhRRHsqt5IucTAZNRwGkMOQ_OoOc_TuN3uJ_R8l9U/edit?usp=sharing)
